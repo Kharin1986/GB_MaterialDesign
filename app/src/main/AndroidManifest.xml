@@ -19,6 +19,13 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity
+                android:name=".LoginActivity"
+                android:label="Вход">
+        </activity>
+        <activity android:name=".InActivity"
+                  android:label="Будущее важное активити">
+        </activity>
     </application>
 
 </manifest>
