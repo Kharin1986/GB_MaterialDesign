@@ -28,5 +28,9 @@ class LoginActivity : AppCompatActivity() {
             snackbar.show()
         }
     }
+
+    fun close_all(view: View){
+        finishAffinity()
+    }
 }
 

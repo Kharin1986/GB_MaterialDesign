@@ -6,6 +6,21 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".InActivity">
+
+    <!-- подключение тулбара -->
+    <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:background="@color/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
     <!-- подключение нижнего экрана -->
     <include layout="@layout/bottom_sheet" />
 </android.support.design.widget.CoordinatorLayout>
