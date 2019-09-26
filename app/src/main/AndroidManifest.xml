@@ -24,7 +24,8 @@
                 android:label="Вход">
         </activity>
         <activity android:name=".InActivity"
-                  android:label="Будущее важное активити">
+        android:theme="@style/AppTheme.NoActionBar">
+
         </activity>
     </application>
 
